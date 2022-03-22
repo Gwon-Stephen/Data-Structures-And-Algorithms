@@ -20,6 +20,8 @@ public class Why_Data_Structures_Matter {
             Insert- add new value
             Delete- remove value
 
+    SETS:
+        a set is a data structure that doesn't allow duplicate values
 
     */
 }
