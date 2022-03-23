@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cd893a5-3dc3-46c0-92cc-298908fc3729" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter05_Optimizing_Code_With_And_Without_Big_O.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter05_Optimizing_Code_With_And_Without_Big_O.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter06_Optimizing_For_Optimistic_Scenarios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
