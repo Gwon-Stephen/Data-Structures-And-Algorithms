@@ -38,9 +38,9 @@ public class Why_Algorithms_Matter {
                midpoint = (upperBound + lowerBound) / 2;
                if(value == array[midpoint])
                    return midpoint;
-               else if(value < array[midpoint])
-                   upperBound = midpoint - 1;
                else if(value > array[midpoint])
+                   upperBound = midpoint - 1;
+               else if(value < array[midpoint])
                    lowerBound = midpoint - 1;
         }
 
