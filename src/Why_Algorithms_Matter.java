@@ -14,9 +14,9 @@ public class Why_Algorithms_Matter {
     {
         for(int i = 0; i < array.length; i++)
         {
-            if(i == value)
+            if(array[i] == value)
                 return i;
-            else if(i > value)
+            else if(array[i] > value)
                 break;
         }
 
