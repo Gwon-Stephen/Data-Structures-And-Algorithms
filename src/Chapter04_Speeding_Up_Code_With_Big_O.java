@@ -16,8 +16,51 @@ public class Chapter04_Speeding_Up_Code_With_Big_O {
 
         -with two approaches O(N^2) and O(N) regarding loops, O(N) runs more efficiently but consumes more memory while O(N^2) is the opposite
 
+    EXERCISES:
+        1. N Elements | O(N) | O(log N) | O(N^2)
+             100        100       7       10000
+             2000       2000      12     4000000
+        2. if O(N^2) algorithm takes 256 steps, what is the size of the array?
+                size 16
+        3. Give time complexity:
+                O(N^2) because there are is a nested for loop
+        4. Write a function that find the greatest single number within an array, but has an efficiency of O(N^2).
+           Rewrite the function so it becomes a speedy O(N)
+                coded below!
 
      */
+
+    //4. O(N^2)
+    public static int greatestNum(int[] array)
+    {
+        for(int i = 0; i < array.length; i++)
+        {
+            boolean isGreatest = true;
+            for(int j = 0; j < array.length; j++)
+            {
+                if(array[j] > array[i])
+                    isGreatest = false;
+            }
+            if(isGreatest)
+                return i;
+        }
+
+        return -1;
+    }
+
+    //4. O(N)
+    public static int greatestNum2(int[] array)
+    {
+        int max = 0;
+        for(int i = 0; i < array.length; i++)
+        {
+            if(array[i] > array[max])
+                max = i;
+        }
+
+        return max;
+    }
+
 
     //implementing bubble sort
     public static int[] bubbleSort(int[] array)
@@ -44,8 +87,10 @@ public class Chapter04_Speeding_Up_Code_With_Big_O {
     public static void main(String[] args)
     {
         int[] unsortedArray = {0, 24, 83, 35, 100, 62, 70, 15, 92, 49};
+        System.out.println(greatestNum(unsortedArray));
+        System.out.println(greatestNum2(unsortedArray));
         System.out.println(Arrays.toString(bubbleSort(unsortedArray)));
-
+        
     }
 
 }

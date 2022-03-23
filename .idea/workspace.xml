@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cd893a5-3dc3-46c0-92cc-298908fc3729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter03_Big_O_Notation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter04_Speeding_Up_Code_With_Big_O.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-And-Algorithms/Why_Algorithms_Matter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-And-Algorithms/Why_Data_Structures_Matter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Why_Algorithms_Matter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter02_Why_Algorithms_Matter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Why_Data_Structures_Matter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter01_Why_Data_Structures_Matter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter04_Speeding_Up_Code_With_Big_O.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter04_Speeding_Up_Code_With_Big_O.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +80,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1648011723096">
