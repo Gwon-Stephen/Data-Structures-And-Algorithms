@@ -1,0 +1,51 @@
+import java.util.Arrays;
+
+public class Chapter04_Speeding_Up_Code_With_Big_O {
+    /*
+    essence of sorting: "Given an array of unsorted values, how can we sort them so that they end up in ascending order?"
+
+    Bubble Sort:
+        -simple sort that compares to number in an array, and the highest unsorted value "bubbles" up to the correct position
+        -two kinds of steps needed: comparisons and swaps
+            -as the number of elements increases, the number of steps grows exponentially as two kinds of steps are increasing
+            -therefore, time complexity is O(N^2) -> quadratic time
+
+    Time Complexity Problems:
+        -nested loops usually create O(N^2) time complexities
+        -by only using one loop, the time complexity is now shrunken to O(N)
+
+        -with two approaches O(N^2) and O(N) regarding loops, O(N) runs more efficiently but consumes more memory while O(N^2) is the opposite
+
+
+     */
+
+    //implementing bubble sort
+    public static int[] bubbleSort(int[] array)
+    {
+        int unsortedNum = array.length-1;
+        boolean sorted = false;
+
+        while(!sorted) {
+            sorted = true;
+            for (int i = 0; i < unsortedNum; i++) {
+                if(array[i] > array[i+1]) {
+                    int temp = array[i];
+                    array[i] = array[i+1];
+                    array[i+1] = temp;
+                    sorted = false;
+                }
+            }
+            unsortedNum -= 1;
+        }
+
+        return array;
+    }
+
+    public static void main(String[] args)
+    {
+        int[] unsortedArray = {0, 24, 83, 35, 100, 62, 70, 15, 92, 49};
+        System.out.println(Arrays.toString(bubbleSort(unsortedArray)));
+
+    }
+
+}

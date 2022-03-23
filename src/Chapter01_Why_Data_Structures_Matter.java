@@ -1,4 +1,4 @@
-public class Why_Data_Structures_Matter {
+public class Chapter01_Why_Data_Structures_Matter {
     /*
     Why does this all matter?
         Code Quality

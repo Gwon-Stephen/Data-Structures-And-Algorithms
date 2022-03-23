@@ -1,4 +1,4 @@
-public class Why_Algorithms_Matter {
+public class Chapter02_Why_Algorithms_Matter {
      /*
     Algorithm: a set of instructions for completing a specific task.
 
@@ -18,8 +18,6 @@ public class Why_Algorithms_Matter {
             1
         3. what is the maximum number of steps it would take to perform a binary search on an array of size 100,000?
             keep dividing 100,000 by two, upon repeating 16 times, we get a fraction, so 16 steps.
-
-
 
      */
 
