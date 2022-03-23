@@ -17,7 +17,7 @@ public class Why_Algorithms_Matter {
         2. How many steps would binary search take for the previous example?
             1
         3. what is the maximum number of steps it would take to perform a binary search on an array of size 100,000?
-            keep dividing 100,000 by two, upon repeating 16 times, we get a fraction, so 16 steps
+            keep dividing 100,000 by two, upon repeating 16 times, we get a fraction, so 16 steps.
 
 
 
