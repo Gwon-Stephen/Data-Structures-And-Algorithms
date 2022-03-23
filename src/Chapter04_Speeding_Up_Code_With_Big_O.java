@@ -19,7 +19,7 @@ public class Chapter04_Speeding_Up_Code_With_Big_O {
     EXERCISES:
         1. N Elements | O(N) | O(log N) | O(N^2)
              100        100       7       10000
-             2000       2000      12     4000000
+             2000       2000      11     4000000
         2. if O(N^2) algorithm takes 256 steps, what is the size of the array?
                 size 16
         3. Give time complexity:
@@ -90,7 +90,7 @@ public class Chapter04_Speeding_Up_Code_With_Big_O {
         System.out.println(greatestNum(unsortedArray));
         System.out.println(greatestNum2(unsortedArray));
         System.out.println(Arrays.toString(bubbleSort(unsortedArray)));
-        
+
     }
 
 }
