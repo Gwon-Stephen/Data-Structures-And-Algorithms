@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Hashtable;
+
 public class Chapter08_Hash_Tables {
     /*
     Hash Tables:
@@ -26,8 +29,67 @@ public class Chapter08_Hash_Tables {
 
     //EXERCISES:
     //1. write a function that returns the intersection of two arrays. The intersection is a third array that contains all values contained within the first two. O(N) complexity
+    public static int[] intersection(int[] array1, int[] array2)
+    {
+
+        Hashtable<Integer, Integer> hash = new Hashtable<>();
+        int count = 0;
+        int index = 0;
+
+        for(int i = 0; i < array1.length; i++) {
+            hash.put(i, array1[i]);
+        }
+
+        for(int k = 0; k < array2.length; k++)
+        {
+            if(hash.contains(array2[k]))
+            {
+                count++;
+            }
+
+        }
+
+        int[] answer = new int[count];
+
+        for(int j = 0; j < array2.length; j++)
+        {
+            if(hash.contains(array2[j]))
+            {
+                answer[index] = (array2[j]);
+                index++;
+            }
+
+        }
+
+        return answer;
+    }
+
     //2. write a function that accepts an array of strings and returns the first duplicate it finds. O(N) complexity
+    public static String duplicate(String[] a1)
+    {
+        Hashtable<Integer, String> hash = new Hashtable<>();
+
+        for(int i = 0; i < a1.length; i++)
+        {
+            if(hash.contains(a1[i]))
+            {
+                return a1[i];
+            } else
+                hash.put(i, a1[i]);
+        }
+
+        return "no duplicates";
+    }
+
     //3. write a function that accepts a string that contains all the letter of the alphabet except one and returns the missing letter. O(N) complexity
     //4. write a function that returns the first non-duplicated character in a string. O(N) complexity
+    public static void main(String[] args) {
+        int[] array1 = {0,1,2,3,4,5,6,7,8,9,10,15,20,30};
+        int[] array2 = {1,2,3,5,6,8,10,11,15};
 
+        String[] duplicateTest = {"a", "b", "c", "d", "d", "e", "f"};
+
+        System.out.println(Arrays.toString(intersection(array1,array2)));
+        System.out.println(duplicate(duplicateTest));
+    }
 }
