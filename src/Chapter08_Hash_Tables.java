@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Hashtable;
 
 public class Chapter08_Hash_Tables {
+
     /*
     Hash Tables:
         -super fast reading with usually O(1) time complexity
@@ -82,14 +83,60 @@ public class Chapter08_Hash_Tables {
     }
 
     //3. write a function that accepts a string that contains all the letter of the alphabet except one and returns the missing letter. O(N) complexity
+
+    public static char missingLetter(String word)
+    {
+        Hashtable<Integer, Character> hash = new Hashtable<>();
+
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+
+        for(int i = 0; i < word.length(); i++)
+        {
+            hash.put(i, word.charAt(i));
+        }
+
+        for(int j = 0; j < alphabet.length(); j++)
+        {
+            if(!hash.contains(alphabet.charAt(j)))
+                return alphabet.charAt(j);
+        }
+
+        return '0';
+
+    }
     //4. write a function that returns the first non-duplicated character in a string. O(N) complexity
+
+    public static String nonDuplicate(String[] ar)
+    {
+        Hashtable<String, Integer> hash = new Hashtable<>();
+        for(int i = 0; i < ar.length; i++)
+        {
+            if(hash.containsKey(ar[i]))
+            {
+                hash.put(ar[i], hash.get(ar[i]) + 1);
+            } else {
+                hash.put(ar[i], 0);
+            }
+        }
+
+        for(int i = 0; i < ar.length; i++)
+        {
+            if(hash.get(ar[i]) == 0)
+                return ar[i];
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
         int[] array1 = {0,1,2,3,4,5,6,7,8,9,10,15,20,30};
         int[] array2 = {1,2,3,5,6,8,10,11,15};
+
+        String word = "the quick brown box jumps over a lazy dog";
 
         String[] duplicateTest = {"a", "b", "c", "d", "d", "e", "f"};
 
         System.out.println(Arrays.toString(intersection(array1,array2)));
         System.out.println(duplicate(duplicateTest));
+        System.out.println(missingLetter(word));
     }
 }

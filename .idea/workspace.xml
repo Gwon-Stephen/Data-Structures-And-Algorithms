@@ -49,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application">
@@ -95,22 +96,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648152647465" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1648179972716">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1648268165736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648179972716" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1648179972716">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648268165736" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1648268165736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648179972716" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1648179972716">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648268165736" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1648268165736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648179972716" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1648179972716">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648268165736" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1648268165736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648179972716" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648268165736" />
+    <state x="611" y="235" key="SettingsEditor" timestamp="1648270685179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="611" y="235" key="SettingsEditor/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1648270685179" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1648152349650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
