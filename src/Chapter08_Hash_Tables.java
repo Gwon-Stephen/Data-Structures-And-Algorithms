@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.Hashtable;
 
 public class Chapter08_Hash_Tables {
-
     /*
     Hash Tables:
         -super fast reading with usually O(1) time complexity
@@ -136,6 +135,7 @@ public class Chapter08_Hash_Tables {
         String[] duplicateTest = {"a", "b", "c", "d", "d", "e", "f"};
 
         System.out.println(Arrays.toString(intersection(array1,array2)));
+        System.out.println(nonDuplicate(duplicateTest));
         System.out.println(duplicate(duplicateTest));
         System.out.println(missingLetter(word));
     }
