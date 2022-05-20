@@ -18,12 +18,22 @@ public class Chapter11_Learning_To_Write_In_Recursive {
         Staircase Problem:
             Staircase with N steps, and a person has teh ability to climb one, two, or three steps. how many different possible paths can someone take to the top?
             Write a function that will calculate this in N steps
+            to recursively write this, you just add the number of steps it takes for n-1,2, and 3.
+
+        Anagram Generation:
+             Write a function that return an array of all anagrams of a given string.
+             Recursive, top down approach using substrings would probably be most efficient
+             O(N!) efficiency because each additional element added onto the string would result in s.length + 1 more anagrams
+
+
+
 
      */
 
+    //Staircase Problem Implemented
     public static int numPaths(int n)
     {
-        if(n >= 0)
+        if(n <= 0)
             return 0;
         if(n == 1)
             return 1;
@@ -34,7 +44,7 @@ public class Chapter11_Learning_To_Write_In_Recursive {
         return numPaths(n-1) + numPaths(n-2) + numPaths(n-3);
     }
 
-    public static void main(String args)
+    public static void main(String[] args)
     {
         System.out.println(numPaths(5));
     }
