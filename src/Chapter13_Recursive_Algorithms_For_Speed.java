@@ -13,6 +13,13 @@ public class Chapter13_Recursive_Algorithms_For_Speed {
         if left pointer has reached or went beyond right, swap pivot with value of left pointer
         else swap values of left and right pointers and repeat
 
+        O(NlogN) time complexity
+
+    Quickselect-
+
+
+
+
      */
 
     //Implementing quicksort
