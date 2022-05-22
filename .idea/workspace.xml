@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cd893a5-3dc3-46c0-92cc-298908fc3729" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter14_Node_Based_Data_Structures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter15_Binary_Search_Trees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter16_Heaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data-Structures-And-Algorithms/Chapter13_Recursive_Algorithms_For_Speed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data-Structures-And-Algorithms/Chapter13_Recursive_Algorithms_For_Speed.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter13_Recursive_Algorithms_For_Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter13_Recursive_Algorithms_For_Speed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
